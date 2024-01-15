@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+}
+
+/* HEADER */
+header .banner {
+  height: 180px;
+  background-color: rgb(78, 160, 255);
+  background-image: url('../img/pattern.png');
+}
+
+header .banner img {
+  height: 90px;
+  margin: 80px 0 0 10px;
+}
+
+/* MAIN */
+main, footer {
+  width: 50%;
+  margin: auto;
+}
+
+/* TITOLO E CREDITI */
+h1 {
+  font-size: 5em;
+  margin-top: 40px;
+}
+
+.credits, .release-date {
+  color: rgb(160, 160, 160);
+}
+
+.credits {
+  font-size: 2.5em;
+}
+
+.autor-name {
+  color: rgb(24, 166, 228);
+}
+
+.release-date {
+  font-size: 1.5em;
+}
+
+.tim-photos {
+  margin-top: 2em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tim-photos #photo-1 {
+  width: 52%;
+}
+
+.tim-photos #photo-2 {
+  width: 44.5%;
+}
+
+.captions {
+  font-size: 1.5em;
+  /* margin-bottom: 30px; */
+}
+
+/* ARTICOLO */
+.article-body,.data-table {
+  font-size: 2em;
+  margin-top: 35px;
+}
+
+.article-body .important-text {
+  background-color: yellow;
+}
+
+.article-body ul {
+  margin-top: 40px;
+}
+
+/* TABELLA */
+.data-table table{
+  background-color: rgb(32, 169, 229);
+  padding: 0;
+  border-collapse: collapse;
+}
+
+.data-table table thead {
+  background-color: rgb(32, 169, 229);
+  color: white;
+  width: 100%;
+  text-align: left;
+}
+
+.data-table table thead th {
+  min-width: 200px;
+}
+
+.data-table table td {
+  background-color: rgb(177, 229, 242);
+}
+
+.data-table table .second-line td {
+  background-color: white;
+}
+
+/* FOOTER */
+footer h4 {
+  margin-top: 50px;
+  font-size: 2em;
+  color: rgb(141, 141, 141);
+}
+
+footer .other-articles a {
+  position: relative;
+}
+
+footer .other-articles a img {
+  width: 400px;
+  margin-top: 20px;
+}
+
+footer .other-articles a span {
+  position: absolute;
+  color: white;
+  margin: 30px 0 0 10px;
+  font-size: 2em;
+  font-weight: bold;
+}
