@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
 }
 
@@ -12,4 +12,50 @@ header .banner {
 header .banner img {
   height: 90px;
   margin: 80px 0 0 10px;
+}
+
+/* MAIN */
+
+main {
+  margin: 0 20px 0 20px;
+}
+
+/* TITOLO E CREDITI */
+h1 {
+  font-size: 5em;
+  margin-top: 40px;
+}
+
+.credits, .release-date {
+  color: rgb(160, 160, 160);
+}
+
+.credits {
+  font-size: 2.5em;
+}
+
+.autor-name {
+  color: rgb(24, 166, 228);
+}
+
+.release-date {
+  font-size: 1.5em;
+}
+
+.tim-photos {
+  margin-top: 2em;
+  width: 100%;
+  overflow: hidden;
+}
+
+.tim-photos #photo-1 {
+  width: 52%;
+}
+
+.tim-photos #photo-2 {
+  width: 44.5%;
+}
+
+.captions {
+  font-size: 1.5em;
 }
