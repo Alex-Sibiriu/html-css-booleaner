@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+/* HEADER */
+header .banner {
+  height: 180px;
+  background-color: rgb(78, 160, 255);
+  background-image: url('../img/pattern.png');
+}
+
+header .banner img {
+  height: 90px;
+  margin: 80px 0 0 10px;
+}
