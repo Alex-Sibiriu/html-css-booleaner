@@ -5,25 +5,25 @@
 
 /* HEADER */
 header .banner {
-  height: 180px;
   background-color: rgb(78, 160, 255);
   background-image: url('../img/pattern.png');
+  background-size: 18%;
 }
 
 header .banner img {
-  height: 90px;
-  margin: 80px 0 0 10px;
+  height: 50px;
+  margin: 50px 0 0 10px;
 }
 
 /* MAIN */
 main, footer {
-  width: 50%;
+  width: 950px;
   margin: auto;
 }
 
 /* TITOLO E CREDITI */
 h1 {
-  font-size: 5em;
+  font-size: 2.5rem;
   margin-top: 40px;
 }
 
@@ -32,19 +32,15 @@ h1 {
 }
 
 .credits {
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 
 .autor-name {
   color: rgb(24, 166, 228);
 }
 
-.release-date {
-  font-size: 1.5em;
-}
-
 .tim-photos {
-  margin-top: 2em;
+  margin-top: 1rem;
   width: 100%;
   overflow: hidden;
 }
@@ -58,14 +54,13 @@ h1 {
 }
 
 .captions {
-  font-size: 1.5em;
+  font-size: .8rem;
   /* margin-bottom: 30px; */
 }
 
 /* ARTICOLO */
 .article-body,.data-table {
-  font-size: 2em;
-  margin-top: 35px;
+  margin-top: 15px;
 }
 
 .article-body .important-text {
@@ -73,7 +68,7 @@ h1 {
 }
 
 .article-body ul {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 /* TABELLA */
@@ -86,7 +81,6 @@ h1 {
 .data-table table thead {
   background-color: rgb(32, 169, 229);
   color: white;
-  width: 100%;
   text-align: left;
 }
 
@@ -105,7 +99,7 @@ h1 {
 /* FOOTER */
 footer h4 {
   margin-top: 50px;
-  font-size: 2em;
+
   color: rgb(141, 141, 141);
 }
 
@@ -114,14 +108,14 @@ footer .other-articles a {
 }
 
 footer .other-articles a img {
-  width: 400px;
-  margin-top: 20px;
+  width: 200px;
+  margin-top: 5px;
 }
 
 footer .other-articles a span {
   position: absolute;
   color: white;
-  margin: 30px 0 0 10px;
-  font-size: 2em;
+  margin: 15px 0 0 10px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
